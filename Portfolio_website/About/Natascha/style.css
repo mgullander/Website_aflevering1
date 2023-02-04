@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(/About/Natascha/Images/Background-image.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.topnav{
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(21, 116, 168);
+    text-align: center;
+    padding: 28px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 14px;
+    position: relative;
+}
+
+
+.topnav ul {
+    list-style: none;
+
+}
+
+
+.topnav li {
+    display: inline-block;
+    margin-left: 280px;
+    position: static;
+}
+
+
+
+.topnav a:hover {
+    background-color: rgb(21, 116, 168);
+    color: white;
+    height: fit-content;
+    width: fit-content;
+  }
+
+.profile_picture_Natascha {
+    position: relative;
+    left: 900px;
+    top: 200px;
+}
+
+.universe {
+    position: absolute;
+    left: 1300px;
+    top: 150px;
+}
+
+.earth {
+    position: absolute;
+    left: 800px;
+    bottom: 100px;
+}
+
+.About_header {
+    color: rgb(21, 116, 168);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align:center;
+    margin-top: 0px;
+    position: relative;
+    top: -320px;
+    left: 115px;
+}
+
+.About_Natascha_Header {
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.About_Natascha {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+}
+
+.About_Me {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
+
+.Contact_information_Natascha {
+    margin-top: 10px;
+    position: relative;
+    bottom: 200px;
+    left: 110px;
+}
+
+.Contact_information_Mathias {
+    margin-top: 10px;
+    position: relative;
+    bottom: 155px;
+    left: 1420px;
+}
